@@ -53,7 +53,8 @@ du sélecteur Darkwood Identity. La documentation Hugo de Flow le lit
 Maintenir le thème dans `assets/sass/`. `_variables.scss` configure Bootstrap
 avant sa compilation. Les autres partiels déclarent les palettes claire,
 sombre et sépia, la typographie Jost, la disposition et les composants Identity.
-La barre de navigation partagée applique le lissage de police de Darkwaar.
+Le thème partagé applique le lissage de police sur les racines `.dw-product`
+et `.dw-theme`.
 Les styles spécifiques à un produit restent séparés du thème commun.
 
 Le lockfile npm fixe Bootstrap 5.3.9, comme la boutique Uniflow et Portal,

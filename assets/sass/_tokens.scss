@@ -33,6 +33,12 @@
   --dw-transition: .2s ease;
 }
 
+.dw-product,
+.dw-theme {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 :root[data-theme="dark"],
 .dw-product.theme-dark,
 .dw-theme.theme-dark {
